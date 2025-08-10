@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophélie Pereira</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <canvas id="constellation"></canvas>
+    <header>
+        <a href="/index.html" class="a-logo"><div class="logo">&lt; Ophélie Pereira /&gt;</div></a>
+        <div class="menu-toggle" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+        <nav class="nav-list">
+            <a href="/index.html">Accueil</a>
+            <a href="/pages/cv.html">CV</a>
+            <a href="/pages/projects.html">Projets</a>
+            <a href="/pages/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <figure class="hero-figure">
+                <img src="/assets/img/pp.png" alt="Photo de profil d’Ophélie Pereira" class="img-pp">
+                <figcaption>
+                    <h1>👋 Bonjour, je suis <span>Ophélie Pereira</span></h1>
+                    <h2>Développeuse Web / Web Mobile</h2>
+                    <p>Passionnée par le développement web, je maîtrise <strong>PHP</strong>, <strong>Symfony</strong>, <strong>MySQL</strong>, <strong>JavaScript</strong>, ainsi que les frameworks <strong>Vue.js</strong> et <strong>React</strong>.
+                    </p>
+                    <p>Vous trouverez ici mon CV, mes projets, et un formulaire de contact en cliquant juste ici :</p>
+                    <a href="/pages/contact.html">Me contacter</a>
+                </figcaption>
+            </figure>
+        </section>
+        <hr class="line">
+        <section class="recent">
+            <h2>Projets récents</h2>
+            <ul class="project-list">
+                <li>
+                    <a href="https://github.com/ShadowAce38/f1_api" class="project-item" target="_blank" rel="noopener">
+                        <img src="/assets/img/F1API.webp" alt="Logo F1 API">
+                        <article>
+                            <h3>F1 API</h3>
+                            <p>Voici une API sur la Formula 1, vous trouverez les écuries, les pilotes, les courses de la saison 2025.</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ShadowAce38/GamesDev" class="project-item" target="_blank" rel="noopener">
+                      <img src="/assets/img/GameInJS.webp" alt="Logo GamesDev">
+                      <article>
+                        <h3>Jeu en JavaScript</h3>
+                        <p>Ici vous trouverez un petit dossier avec pluseurs jeu fait en JavaScript. Le 2048, le Snake, etc.</p>
+                    </article>
+                </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ShadowAce38/clock" class="project-item" target="_blank" rel="noopener">
+                      <img src="/assets/img/Clock.webp" alt="Logo Clock">
+                      <article>
+                        <h3>Horloge Numérique</h3>
+                        <p>Une petite horloge numérique, fait en HTML, CSS, JS.</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <hr class="line">
+    </main>
+    <footer>
+        <p>Ophélie Pereira ©2025 - Tout droit réservés.</p>
+    </footer>
+    <script src="/assets/js/constellation.js"></script>
+    <script src="/assets/js/burger.js"></script>
+</body>
+</html>
