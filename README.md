@@ -1,6 +1,6 @@
 # Portfolio
 
-Bienvenue sur le dépôt de mon portfolio !
+Bienvenue sur le dépôt de mon portfolio !<br>
 Welcome to my portfolio repository!
 
 ## 📋 Description
