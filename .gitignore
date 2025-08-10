@@ -1,0 +1,8 @@
+/asset/img/
+
+/asset/img/*.png
+/asset/img/*.jpg
+/asset/img/*.jpeg
+/asset/img/*.gif
+/asset/img/*.svg
+/asset/img/*.webp
