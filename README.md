@@ -5,7 +5,7 @@ Welcome to my portfolio repository!
 
 ## 📋 Description
 
-Ce dépôt contient le contenu de mon portifolio avec l'HTML, le CSS, le JS mais pas les images que j'utilise. 
+Ce dépôt contient le contenu de mon portifolio avec l'HTML, le CSS, le JS mais pas les images que j'utilise.<br>
 This repository contains my portfolio content with HTML, CSS, JS but not the images I use.
 
 ```bash
